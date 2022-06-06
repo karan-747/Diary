@@ -4,23 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/beige"
-    tools:context=".CreateNotes">
+    tools:context=".EditNoteActivity">
 
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbarofcreatenote"
+        android:id="@+id/toolbarofeditnote"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="@color/Pms">
 
         <EditText
-            android:id="@+id/createtitleofnote"
+            android:id="@+id/edittitleofnote"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:paddingTop="12dp"
             android:textColor="@color/black"
-            android:hint="Enter Date/Time"
             android:textSize="20sp"
             android:textStyle="italic">
 
@@ -32,18 +30,17 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center_horizontal"
-        android:hint="Write Contents"
         android:textColor="@color/black"
         android:textSize="15dp"
-        android:layout_below="@+id/toolbarofcreatenote"
+        android:layout_below="@+id/toolbarofeditnote"
         android:padding="15dp"
-        android:id="@+id/createcontentofnote"
+        android:id="@+id/editcontentofnote"
         android:textAlignment="center">
 
     </EditText>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/savenote"
+        android:id="@+id/saveeditnote"
 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -53,9 +50,12 @@
         android:layout_marginRight="30dp"
         android:layout_marginBottom="30dp"
         android:background="@color/Pms"
-        android:src="@drawable/ic_baseline_save_alt_24"
+        android:src="@drawable/ic_baseline_cloud_upload_24"
         app:maxImageSize="40dp">
 
 
     </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+
 </RelativeLayout>

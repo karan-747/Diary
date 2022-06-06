@@ -14,8 +14,15 @@
         android:theme="@style/Theme.MyDiary"
         tools:targetApi="31">
         <activity
-            android:name=".CreateNotes"
+            android:name=".EditNoteActivity"
             android:exported="false" />
+        <activity
+            android:name=".NodeDetails"
+            android:exported="false" />
+        <activity
+            android:name=".CreateNotes"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity
             android:name=".NotesActivity"
             android:exported="false" />

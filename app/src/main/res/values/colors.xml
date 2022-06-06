@@ -9,4 +9,24 @@
     <color name="white">#FFFFFFFF</color>
     <color name="beige">#F5F5DC</color>
     <color name="Pms">#D38706</color>
+
+
+
+    <color name="colour1">#52C41A</color>
+    <color name="colour2">#FE4D4F</color>
+    <color name="colour3">#C41D7E</color>
+    <color name="colour4">#AC4E00</color>
+    <color name="colour5">#13C2C2</color>
+    <color name="colour6">#712DD1</color>
+
+    <color name="colour7">#7BB305</color>
+    <color name="colour8">#FE7875</color>
+    <color name="colour9">#FEC53C</color>
+    <color name="colour10">#587DF7</color>
+    <color name="colour11">#FE9C6D</color>
+
+
+
+
+
 </resources>
