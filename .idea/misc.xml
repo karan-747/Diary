@@ -8,10 +8,13 @@
         <entry key="app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.19" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.19" />
         <entry key="app/src/main/res/layout/activity_create_notes.xml" value="0.2726449275362319" />
+        <entry key="app/src/main/res/layout/activity_edit_note.xml" value="0.19375" />
         <entry key="app/src/main/res/layout/activity_forgot_password.xml" value="0.2726449275362319" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2726449275362319" />
+        <entry key="app/src/main/res/layout/activity_node_details.xml" value="0.14250191277735272" />
         <entry key="app/src/main/res/layout/activity_notes.xml" value="0.2726449275362319" />
         <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.2726449275362319" />
+        <entry key="app/src/main/res/layout/notes_layout.xml" value="0.2726449275362319" />
         <entry key="app/src/main/res/menu/menu.xml" value="0.4343002319335938" />
       </map>
     </option>
